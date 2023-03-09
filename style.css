@@ -10,6 +10,117 @@
     list-style: none;
 }
 
-h1{
-    font-weight: 700;
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+}
+
+body {
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17,17,17,0.8)), url(imgs/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    height: 7vh;
+    background: rgba(22, 22, 22, 0.2);
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.3rem;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font: 1.8rem;
+    letter-spacing: 0.4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.menu-content .list-itens a{
+    color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+/* Efeito Transição de linha no menu */
+
+.menu-content .list-itens a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(47, 0, 255);
+    transition: all .7s ease;
+}
+
+.menu-content .list-itens a:hover:before {
+    width: 100%;
+}
+
+/* Conteudo Principal */
+
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .principal-um{
+    font-size: 4rem;
+    
+}
+
+section .principal-dois{
+    font-size: 2rem;
+    background: linear-gradient(to right, rgb(174, 0, 255), rgb(7, 93, 151));
+    box-shadow: 1px 2px 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
 }
