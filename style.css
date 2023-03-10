@@ -190,6 +190,151 @@ aside {
 
 /* RESPONSIVIDADE */
 
+@media screen and (max-width: 844px){
+
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    h1.principal-um{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    h2.principal-dois {
+        font-size: 1.1rem;
+        margin-bottom: 20rem;
+    }
+
+
+    #barra-menu .links {
+        font-size: 10rem;
+    }
+
+    main {
+        margin-top: 10rem;
+    }
+
+
+    h1.primary-text{
+        margin-top: 45rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    h2.second-text{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.0rem;
+    }
+    
+    #btns {
+        margin-top: 6rem;
+    }
+    
+
+    .menu-content .list-itens{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+
+    .links {
+        display: block;
+        list-style: none;
+    }
+
+    .logo {
+        margin-right: 15rem;
+        
+    }
+
+    aside {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        overflow: hidden;
+    
+    }
+
+    #barra-menu{
+        background: linear-gradient(rgba(82, 4, 78, 0.8), rgb(7, 91, 148));
+        width: 0px;
+        height: 1000px;
+        transition: 0.3s all;
+        
+    }
+
+    .icon-menu ion-icon {
+        width: 45px;
+        height: 45px;
+        margin-right: 1.5rem; /* afasta o icone para a esquerda */
+        margin-top: 2rem;
+        color: white
+    }
+
+    #barra-menu ul {
+        align-items: center;
+        text-align: center;
+        padding: 5rem;
+        line-height: 5rem;
+    
+    }
+
+    #barra-menu ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 2.2rem;
+        width: 100%;
+    }
+
+    #barra-menu ul li a:hover{
+        padding: 8px;
+        border-radius: 15px;
+        background-color: #5bacdf;
+    }
+
+    .c-icon {
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 15px; /* separa um icone do outro */
+        overflow: hidden;
+        
+    }
+
+    .c-icon span {
+        color: white;
+        font-size: 3.5rem;
+    }
+    #btns button   {
+        margin: -5rem;
+        border: 1px solid white;
+        border-radius: 20px;
+    }
+
+    #btns button {
+        width: 250px;
+        height: 60px;
+        cursor: pointer;
+        color: white;
+        text-transform: uppercase;
+        background-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border-radius: 20px;
+        position: relative;
+        transition: 0s;
+    }
+}
+
 @media screen and (max-width: 740px) {
 
     h1.principal-um{
