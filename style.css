@@ -24,6 +24,7 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -47,7 +48,7 @@ header {
     align-items: center;
 }
 
-h1 {
+ h1  {
     font: 1.8rem;
     letter-spacing: 0.4rem;
     display: flex;
@@ -118,9 +119,288 @@ section .principal-um{
 
 section .principal-dois{
     font-size: 2rem;
-    background: linear-gradient(to right, rgb(174, 0, 255), rgb(7, 93, 151));
+    background: linear-gradient(to right, rgba(174, 0, 255, 0.514), rgba(7, 93, 151, 0.582));
     box-shadow: 1px 2px 5px rgb(0, 0, 0);
     border-radius: 10px;
     padding: 10px;
     margin-top: 30px;
+}
+
+section .segunda{
+    font-size: 2rem;
+    margin-bottom: 120rem;
+}
+
+
+
+/* BOTÃO */
+
+#btns {
+    margin-bottom: 120rem;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#btns button {
+    margin-top: 10px;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+}
+
+#btns button:before {
+    content: ' ';
+    border-radius: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0px;
+    height: 60px;
+    background-color: rgba(104, 26, 177, 0.979);
+    z-index: -1;
+    transition: 1s;
+}
+
+#btns button:hover:before {
+   width: 100%;
+}
+
+#btns a {
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* BARRA DE MENU */
+aside {
+    display: none;
+}
+
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 740px) {
+
+    h1.principal-um{
+        font-size: 2rem;
+    }
+    
+    h2.principal-dois {
+        font-size: 1.5rem;
+    }
+
+
+    #barra-menu .links {
+        font-size: 10rem;
+    }
+
+    main {
+        margin-top: 10rem;
+    }
+
+
+    h1.primary-text{
+        margin-top: 13rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.0rem;
+    }
+
+    h2.second-text{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.0rem;
+    }
+    
+    #btns {
+        margin-top: 6rem;
+    }
+    
+
+    .menu-content .list-itens{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+
+    .links {
+        display: block;
+        list-style: none;
+    }
+
+    .logo {
+        margin-right: 15rem;
+        
+    }
+
+    aside {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        overflow: hidden;
+    
+    }
+
+    #barra-menu{
+        background: linear-gradient(rgba(82, 4, 78, 0.8), rgb(7, 91, 148));
+        width: 0px;
+        height: 1000px;
+        transition: 0.3s all;
+        
+    }
+
+    .icon-menu ion-icon {
+        width: 45px;
+        height: 45px;
+        margin-right: 1.5rem; /* afasta o icone para a esquerda */
+        margin-top: 2rem;
+        color: white
+    }
+
+    #barra-menu ul {
+        align-items: center;
+        text-align: center;
+        padding: 5rem;
+        line-height: 5rem;
+    
+    }
+
+    #barra-menu ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 2.2rem;
+        width: 100%;
+    }
+
+    #barra-menu ul li a:hover{
+        padding: 8px;
+        border-radius: 15px;
+        background-color: #5bacdf;
+    }
+
+    .c-icon {
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 15px; /* separa um icone do outro */
+        overflow: hidden;
+        
+    }
+
+    .c-icon span {
+        color: white;
+        font-size: 3.5rem;
+    }
+    #btns button   {
+        margin: -5rem;
+        border: 1px solid white;
+        border-radius: 20px;
+    }
+
+    #btns button {
+        width: 250px;
+        height: 60px;
+        cursor: pointer;
+        color: white;
+        text-transform: uppercase;
+        background-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border-radius: 20px;
+        position: relative;
+        transition: 0s;
+    }
+
+}
+@media screen and (max-width: 580px) {
+    h1.primary-text{
+        font-size: 2.8rem;
+    }
+    
+    .logo {
+        font-size: 1.7rem;
+        margin-right: 25rem;
+        margin-top: 1.5rem;
+    }
+
+    .btns button   {
+        margin: -5rem;
+        border: 1px solid white;
+        border-radius: 20px;
+    }
+
+    .btns button {
+        width: 250px;
+        height: 60px;
+        cursor: pointer;
+        color: white;
+        text-transform: uppercase;
+        background-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border-radius: 20px;
+        position: relative;
+        transition: 0s;
+    }
+    
+}
+
+@media screen and (max-width: 440px) {
+    h1.primary-text{
+        font-size: 2.2rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    .btns button   {
+        margin: -7rem;
+        border: 1px solid white;
+        border-radius: 20px;
+    }
+
+    .btns button {
+        width: 250px;
+        height: 60px;
+        cursor: pointer;
+        color: white;
+        text-transform: uppercase;
+        background-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border-radius: 20px;
+        position: relative;
+        transition: 0s;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+   
+
+    
+    .logo {
+        margin-right: 15rem;
+        overflow: hidden;
+    }
+
 }
