@@ -94,6 +94,7 @@ a {
     text-align: center;
     gap: 50px;
     padding-bottom: 50px;
+    padding-top: 50px;
  }
 
  .container-skills p{
@@ -109,8 +110,8 @@ a {
 .html5{
     background-color: rgba(0, 0, 0, 0.418);
     margin: auto;
-    height: auto;
-    width: 300px;
+    height: 250px;
+    width: 320px;
     border-radius: 5px;
     
 }
@@ -132,8 +133,8 @@ a {
 .css3{
     background-color: rgba(0, 0, 0, 0.418);
     margin: auto;
-    height: auto;
-    width: 300px;
+    height: 250px;
+    width: 320px;
     border-radius: 5px;
 
 }
@@ -149,15 +150,13 @@ a {
     background-color: #782ecc;
     transition: 0.5s;
     color: white;
-
 }
 
 .Javascript{
-    
     background-color: rgba(0, 0, 0, 0.418);
     margin: auto;
-    height: auto;
-    width: 300px;
+    height: 250px;
+    width: 320px;
     border-radius: 5px;
 }
 
@@ -177,10 +176,9 @@ a {
 }
 .Photoshop{
     background-color: rgba(0, 0, 0, 0.418);
-   
     margin: auto;
-    height: auto;
-    width: 300px;
+    height: 250px;
+    width: 320px;
     border-radius: 5px;
 }
 
@@ -200,10 +198,11 @@ a {
 }
 
 .Premiere{
+    
     background-color: rgba(0, 0, 0, 0.418);
     margin: auto;
-    height: auto;
-    width: 300px;
+    height: 250px;
+    width: 320px;
     border-radius: 5px;
 }
 .Premiere h1{
