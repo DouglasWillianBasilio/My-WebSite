@@ -207,7 +207,10 @@ aside {
 
 @media screen and (max-width: 844px){
 
-    
+    #main-bnt {
+        padding: 1000px;
+    }    
+
     h1 {
         font-size: 2rem;
     }
@@ -233,7 +236,7 @@ aside {
 
 
     h1.primary-text{
-        margin-top: 45rem;
+        margin-top: 55rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -241,11 +244,11 @@ aside {
     }
 
     h2.second-text{
-        margin-top: 1rem;
+        margin-top: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 3.0rem;
+        font-size: 2rem;
     }
     
     #btns {

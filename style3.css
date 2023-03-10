@@ -650,3 +650,131 @@ aside {
     }
 
 }
+
+/* PROJETOS */
+
+.container-projects{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 150px;
+   gap: 60px;
+}
+
+.container-projects img{
+    display: flex;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    
+
+
+}
+.proj1{
+
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: auto;
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+}
+.proj1:hover{
+    background-color: #2ecc71;
+    transition: 0.5s;
+    color: white;
+
+}
+.proj2{
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: auto;
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+}
+.proj2:hover{
+    background-color: #2ecc71;
+    transition: 0.5s;
+    color: white;
+}
+
+.proj3{
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: auto;
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+}
+.proj3:hover{
+    background-color: #2ecc71;
+    transition: 0.5s;
+    color: white;
+
+}
+
+.proj4{
+
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: auto;
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+}
+.proj4:hover{
+    background-color: #2ecc71;
+    transition: 0.5s;
+    color: white;
+
+}
+
+.proj5{
+
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: auto;
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+}
+.proj5:hover{
+    background-color: #2ecc71;
+    transition: 0.5s;
+    color: white;
+
+}
+
+.proj1 img{
+    height: auto;
+    width: 500px;
+    margin: auto;
+    
+   
+}
+.proj2 img{
+    height: auto;
+    width: 500px;
+    margin: auto;
+   
+    
+}
+.proj3 img{
+    height: auto;
+    width: 500px;
+    margin: auto;
+    
+}
+
+.proj4 img{
+    height: auto;
+    width: 500px;
+    margin: auto;
+    
+   
+}
+
+.proj5 img{
+    height: auto;
+    width: 500px;
+    margin: auto;
+    
+   
+}
