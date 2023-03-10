@@ -60,81 +60,174 @@ header {
     text-transform: uppercase;
 }
 
+h1.sobre{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(225, 0, 255);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rem;
+    font-size: 1.5rem;
+    line-height: 50px; /* espaçamento entre linhas */
+}
+
+
+a.link:hover{
+    color: red;
+}
+
 
 a {
     text-decoration: none;
     color: white;
 }
 
-.menu-content .list-itens {
+
+
+
+.container-skills{
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     gap: 50px;
-}
+    padding-bottom: 50px;
+ }
 
-
-
-.menu-content .list-itens a{
+ .container-skills p{
     color: white;
-    padding: 1.5rem;
-    transform: 2ms ease-in;
-    position: relative;
+    font-family: "Poppins";
+
 }
-
-/* Efeito Transição de linha no menu */
-
-.menu-content .list-itens a:before {
-    content: ' ';
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 0px;
-    height: 1px;
-    background-color: rgb(255, 0, 221);
-    transition: all .7s ease;
-}
-
-.menu-content .list-itens a:hover:before {
-    width: 100%;
-}
-
-/* Conteudo Principal */
-
-main {
-    height: 93vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-shadow: 1px 1px 1px rgba(255, 0, 221, 0.486);
+.container-skills img{
+    height: 100px;
 }
 
 
-
-section .principal-um{
-    font-size: 4rem;
-    text-shadow: 1px 1px 1px rgb(255, 0, 221);
+.html5{
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: auto;
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
     
 }
 
-section .principal-dois{
-    font-size: 2rem;
-    background: linear-gradient(to right, rgba(174, 0, 255, 0.514), rgba(7, 93, 151, 0.582));
-    box-shadow: 1px 2px 5px rgb(0, 0, 0);
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 30px;
+.html5 h1{
+    font-size: 2.9rem;
 }
 
-section .segunda{
-    font-size: 2rem;
-    margin-bottom: 120rem;
+.html5 p{
+    font-size: 1.5rem;
 }
+
+.html5:hover{
+    background-color: #782ecc;
+    transition: 0.5s;
+    color: white;
+
+}
+.css3{
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: auto;
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+
+}
+.css3 h1{
+    font-size: 2.9rem;
+}
+
+.css3 p {
+    font-size: 1.5rem;
+}
+
+.css3:hover{
+    background-color: #782ecc;
+    transition: 0.5s;
+    color: white;
+
+}
+
+.Javascript{
+    
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: auto;
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.Javascript h1{
+    font-size: 2.9rem;
+}
+
+.Javascript p {
+    font-size: 1.5rem;
+}
+
+.Javascript:hover{
+    background-color: #782ecc;
+    transition: 0.5s;
+    color: white;
+
+}
+.Photoshop{
+    background-color: rgba(0, 0, 0, 0.418);
+   
+    margin: auto;
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.Photoshop h1 {
+    font-size: 2.9rem;
+}
+
+.Photoshop p {
+    font-size: 1.5rem;
+}
+
+.Photoshop:hover{
+    background-color: #782ecc;
+    transition: 0.5s;
+    color: white;
+
+}
+
+.Premiere{
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: auto;
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+}
+.Premiere h1{
+    font-size: 2.9rem;
+}
+
+.Premiere p{
+    font-size: 1.5rem;
+}
+
+.Premiere:hover{
+    background-color: #782ecc;
+    transition: 0.5s;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
 
 
 
